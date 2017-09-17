@@ -1,0 +1,16 @@
+* Always checks if the input is the right sort of input
+	- Does not accept numbers, spaces or more than one characters
+	- Makes sure both the input and the letters in secret word are always 		uppercase
+* Gives user different number of chances according to the length of the random word
+	- Longer words deserve more chances
+	- But never more than 7, since it makes it too easy
+* Keeps track of guessed letters
+	- Warns user and asks her to enter another letter
+	- Doesn’t count the turn if user guesses an already guessed letter
+* Checks if a letter appears more than once
+	- Tells user how many times it appears
+	- Prints them all at once in their places on the board
+* Does not manipulate the original secret word
+	- Tells user what the secret word was at the end of her turns
+
+
